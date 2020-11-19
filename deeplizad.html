@@ -1,0 +1,735 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122494709-1"></script>
+    <script id="gtag-script">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122494709-1');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="At deeplizard, we&#x2019;re building collective intelligence through the creation of high-quality courses on advanced topics.">
+    <meta name="google-site-verification" content="418yMApBB3P2BhGcIDZX5XsfdSJrb8hOk-x_UV7JKuo">
+    <title>deeplizard - Building Collective Intelligence</title>
+    <link rel="icon" href="/images/deeplizard-1.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/deeplizard.css">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@deeplizard">
+    <meta name="twitter:creator" content="@deeplizard">
+    <meta name="twitter:title" content="deeplizard - Building Collective Intelligence">
+    <meta name="twitter:description" content="At deeplizard, we&#x2019;re building collective intelligence through the creation of high-quality courses on advanced topics.">
+    <meta name="twitter:image" content="https://deeplizard.com/images/artificial-intelligence-3382507_1920-cropped-gray.jpg">
+
+    <link rel="canonical" href="https://deeplizard.com">
+    <meta property="og:url" content="https://deeplizard.com">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="deeplizard - Building Collective Intelligence">
+    <meta property="og:description" content="At deeplizard, we&#x2019;re building collective intelligence through the creation of high-quality courses on advanced topics.">
+    <meta property="og:image" content="https://deeplizard.com/images/artificial-intelligence-3382507_1920-cropped-gray.jpg">
+
+    <style>
+        h2 {
+            color: #2c2f32f7;
+        }
+
+        .special-text {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: #ffb3d7;
+        }
+
+        #particles {
+            position: absolute;
+            top: -10rem;
+            width: 100%;
+            height: 50rem;
+            z-index: -1;
+        }
+
+        #heading .title {
+            font-size: 3rem;
+            font-weight: 800;
+            font-family: open sans, sans-serif;
+        }
+
+        #heading .subtitle {
+            font-family: "droid serif", serif;
+            font-style: italic;
+            line-height: 1rem;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .jumbotron {
+            padding: 4rem 1rem;
+            margin-bottom: 0rem;
+        }
+
+        .text-section {
+            background-color: #2c2f32f7;
+            padding: 2.5rem 0rem
+        }
+
+        .text-section h2 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 0rem;
+            text-align: right;
+            line-height: 1;
+        }
+
+        .overview {
+            height: inherit;
+            font-weight: 400;
+            padding: 10rem 0rem 8rem 0rem;
+            background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .99)), url(/images/artificial-intelligence-3382507_1920-5.jpg);
+            background-position: 50% 110%;
+        }
+
+        .overview h3 {
+            font-weight: 600;
+            font-size: 2rem
+        }
+
+        .overview i {
+            font-size: 85px;
+            opacity: 0.9;
+        }
+
+        .overview p {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .overview-item:hover {
+            opacity: .9;
+        }
+
+        .welcome-section {
+            padding-bottom: 4rem;
+        }
+
+        .welcome-section p {
+            font-size: 1.75rem;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .welcome-section .special-text {
+            font-size: 2.5rem;
+            color: #4b9097;
+        }
+
+        .courses .item {
+            padding: 2rem 0rem 3rem 0.25rem;
+        }
+
+        .courses .item:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        .courses .item:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .courses img {
+            padding: 2rem 0rem;
+        }
+
+        .courses img:hover {
+            transform: scale(1.02);
+        }
+
+        .courses h2 {
+            font-weight: 600;
+        }
+
+        .courses h2:hover {
+            transform: scale(1.01);
+        }
+
+        .info {
+            font-weight: 500;
+            font-family: "droid serif", serif;
+            font-style: italic;
+            color: gray;
+        }
+
+        .btn {
+            padding: .5rem;
+            border-radius: 1.5rem;
+            font-weight: 600;
+        }
+
+        .btn-outline-dark {
+            border: 2px solid;
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+
+        @media (min-width: 576px) {}
+
+        /* Medium devices (tablets, 768px and up) */
+
+        @media (min-width: 768px) {
+            .jumbotron {
+                padding: 8rem 6rem 12rem 8rem;
+            }
+
+            #heading .title {
+                font-size: 4rem;
+                font-weight: 800;
+            }
+
+            #heading .subtitle {
+                line-height: 25px;
+                font-size: 25px;
+                margin-bottom: 0.25rem;
+            }
+
+            .text-section {
+                padding: 3.5rem 0rem
+            }
+
+            .text-section h2 {
+                font-weight: 800;
+                font-size: 2.8rem;
+                text-align: right;
+                line-height: 1;
+            }
+
+            .special-text {
+                font-size: 3rem;
+                font-weight: 800;
+            }
+
+            .overview {
+                padding: 12rem 0rem 8rem 0rem;
+                background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .99)), url(/images/artificial-intelligence-3382507_1920-5.jpg);
+                background-position: 50% 40%;
+            }
+
+            .welcome-section {
+                padding-bottom: 7rem;
+            }
+
+            .welcome-section p {
+                font-size: 2.5rem;
+                text-align: center;
+                line-height: 1.2;
+            }
+
+            .welcome-section .special-text {
+                font-size: 3rem;
+                font-weight: 800;
+                color: #4b9097;
+            }
+
+            .btn {
+                padding: .5rem 1.5rem;
+                border-radius: 1.5rem;
+                font-weight: 700;
+            }
+
+            .btn-outline-dark {
+                border: 2px solid;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+
+        @media (min-width: 992px) {}
+
+        /* Extra large devices (large desktops, 1200px and up) */
+
+        @media (min-width: 1200px) {}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-bar clearfix">
+            <div class="container-lg">
+                <div class="float-sm-left">
+                    <ul class="list-inline mb-0 links">
+                        <li class="list-inline-item">
+                            <a href="https://youtube.com/deeplizard" target="_blank">YouTube</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://youtube.com/deeplizardvlog" target="_blank">Vlog</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/hivemind">Hivemind</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/resources">Code</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/create-quiz-question">Create a Quiz Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-top">
+            <nav class="navbar navbar-light navbar-expand-lg nav-sticky-top">
+                <div class="container-lg">
+                    <a class="navbar-brand" href="/">
+                        <img src="" height="30" width="30" alt="">
+                        <b>DEEPLIZARD</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <h6 class="dropdown-header">Deep Learning Courses</h6>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU">Machine Learning &amp; Deep Learning Fundamentals</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL">Keras - Python Deep Learning Neural Network API</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG">Neural Network Programming - Deep Learning with PyTorch</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv">Reinforcement Learning - Goal Oriented Intelligence</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header">Other Courses</h6>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xrth-Cqs_R9-us6IWk9x27z">Data Science - Learn to code for beginners</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xr17PqeytCKiCD-TJj89rII">Trading - Advanced Order Types with Coinbase</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xq_NT5lOc-_5qxDeFF47_oI">Waves - Proof of Stake Blockchain Platform and DEX</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xqlYVdBKoKDOXsN4su8iqrU">Zcash - Privacy Based Blockchain Platform</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xo_m9ifxsnWRrqbOypARsWL">Steemit - Blockchain Powered Social Network</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xpOpsGIuk4qHek6KxeQACHf">Jaxx - Blockchain Interface and Crypto Wallet</a>
+                                    <a class="dropdown-item" href="/learn/playlist/PLZbbT5o_s2xoWPNdBbqi9eWnMJ5cDrr1M">AWS - Amazon Web Services EC2 Management</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-none" href="/resources">Code</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-none" href="/hivemind">Hivemind</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-none" href="https://youtube.com/deeplizardvlog" target="_blank">Vlog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="heading">
+            <div id="particles"></div>
+            <div class="jumbotron bg-transparent">
+                <div class="container">
+                    <p class="subtitle">Building Collective Intelligence</p>
+                    <h1 class="title">DEEPLIZARD</h1>
+                    <button id="content-btn" class="btn btn-outline-dark btn-rounded">Deep Learning Courses &amp; Offerings</button>
+                    <!-- <a class="btn btn-dark btn-rounded" href="/about" role="button">Learn More</a> -->
+                </div>
+            </div>
+        </section>
+        <section class="text-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-light top-message">
+                            Contribute to <span class="special-text text-uppercase">Collective Intelligence</span>.
+                            <br>Start your <span class="special-text text-uppercase">Deep Learning</span> Journey Today.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overview">
+            <div class="container-fluid fadeIn">
+                <div class="row text-center align-items-start justify-content-center">
+                    <div class="overview-item col col-sm-5 col-lg-2">
+                        <h3>
+                            Course
+                        </h3>
+                        <i class="material-icons">filter_1</i>
+                        <p>
+                            Machine Learning &amp; Deep Learning Fundamentals
+                        </p>
+                    </div>
+                    <div class="overview-item col col-sm-5 col-lg-2">
+                        <h3>
+                            Course
+                        </h3>
+                        <i class="material-icons">filter_2</i>
+                        <p>
+                            Keras - Python Deep Learning Neural Network API
+                        </p>
+                    </div>
+                    <div class="overview-item col col-sm-5 col-lg-2">
+                        <h3>
+                            Course
+                        </h3>
+                        <i class="material-icons">filter_3</i>
+                        <p>
+                            Neural Network Programming - Deep Learning with PyTorch
+                        </p>
+                    </div>
+                    <div class="overview-item col col-sm-5 col-lg-2">
+                        <h3>
+                            Course
+                        </h3>
+                        <i class="material-icons">filter_4</i>
+                        <p>
+                            Reinforcement Learning - Goal Oriented Intelligence
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-md-7">
+                        <p>
+                            Welcome to <span class="special-text">deeplizard&apos;s deep learning road map!</span> Check out the overviews below for all of the deep learning material, and choose a <span class="special-text">starting point!</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-light">
+                            Deep <span class="special-text">Learning</span>.
+                        </h2>
+                    </div>
+                    <div class="col-12 col-sm-7 offset-sm-5 text-right pt-1">
+                        <p class="lead text-light font-italic">
+                            A sub-field of machine learning that uses algorithms inspired by the structure and function of the brain&apos;s neural networks to learn features from data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="courses">
+            <div class="item">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 text-center">
+                            <a href="/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU">
+                                <img class="img-fluid mx-auto" src="/images/calculus curve tangent line.png" alt="course thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <a href="/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU">
+                                <h2>Machine Learning &amp; Deep Learning Fundamentals</h2>
+                            </a>
+                            <p class="lead">This course covers concepts that are absolutely fundamental to deep learning and artificial neural networks for beginners! You will also learn how to implement some of the concepts in simple code examples.
+                            </p>
+                            <p class="info">
+                                Level: Beginner
+                            </p>
+                            <p class="lead">
+                                This is a great course for beginners in deep learning, or non-beginners who need a refresher on fundamental concepts.
+                            </p>
+                            <a class="btn btn-outline-dark btn-rounded float-left" href="/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU" role="button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 order-lg-2 text-center">
+                            <a href="/learn/playlist/PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL">
+                                <img class="img-fluid mx-auto" src="/images/keras logo with text.png" alt="course thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <a href="/learn/playlist/PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL">
+                                <h2>Keras - Python Deep Learning Neural Network API</h2>
+                            </a>
+                            <p class="lead">
+                                This course teaches you how to use Keras, a neural network API written in Python, to implement fundamental deep learning concepts in code and to deploy models to production.
+                            </p>
+                            <p class="info">
+                                Level: Beginner
+                            </p>
+                            <p class="lead">
+                                This course is for anyone interested in developing neural network projects in code. Some fundamental deep learning concepts from the Deep Learning Fundamentals course, as well as basic coding skills are assumed to be known.
+                            </p>
+                            <a class="btn btn-outline-dark btn-rounded float-left" href="/learn/playlist/PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL" role="button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 text-center">
+                            <a href="/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG">
+                                <img class="img-fluid mx-auto" src="/images/pytorch-logo-dark.svg" alt="course thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <a href="/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG">
+                                <h2>Neural Network Programming - Deep Learning with PyTorch</h2>
+                            </a>
+                            <p class="lead">
+                                This course teaches you how to implement neural networks using the PyTorch API and is a step up in sophistication from the Keras course. PyTorch inherently gives the developer more control than Keras, and as such, you will learn how to build, train, and
+                                generally work with neural networks and tensors at deeper level!
+                            </p>
+                            <p class="info">
+                                Level: Intermediate
+                            </p>
+                            <p class="lead">
+                                This course is for anyone interested in developing neural network projects in code. Some fundamental deep learning concepts from the Deep Learning Fundamentals course, as well as basic coding skills are assumed to be known. This course also uses more
+                                advanced coding practices than the Keras course.
+                            </p>
+                            <a class="btn btn-outline-dark btn-rounded float-left" href="/learn/playlist/PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG" role="button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 order-lg-2 text-center">
+                            <a href="/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv">
+                                <img class="img-fluid mx-auto" src="/images/robot-2701312_1920.png" alt="course thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <a href="/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv">
+                                <h2>Reinforcement Learning - Goal Oriented Intelligence</h2>
+                            </a>
+                            <p class="lead">
+                                This course will give you a deep understanding of the intuition, the math, and the coding involved with the buzzing area of machine learning called reinforcement learning! Reinforcement learning algorithms study the behavior of subjects in environments
+                                and learn to optimize that behavior.
+                            </p>
+                            <p class="info">
+                                Level: Advanced
+                            </p>
+                            <!-- <ul class="list-inline text-capitalize">
+                                <li class="list-inline-item info">
+                                    Topics:
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    Math
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    Python
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    PyTorch
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    Q-learning
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    Q-Networks
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    Markov Decision Processes
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    deep Q-networks (DQNs)
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    policy gradients
+                                </li>
+                                <li class="list-inline-item badge badge-pill badge-dark">
+                                    OpenAI Gym
+                                </li>
+                            </ul> -->
+                            <p class="lead">
+                                This course is for anyone interested in learning about reinforcement learning. Some fundamental deep learning concepts from the Deep Learning Fundamentals course, as well as basic coding skills are assumed to be known. PyTorch is used in this course.
+                            </p>
+                            <a class="btn btn-outline-dark btn-rounded float-left" href="/learn/playlist/PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv" role="button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-10 float-sm-left text-muted">
+                    <ul class="list-inline mb-0 links">
+                        <li class="list-inline-item text-uppercase">
+                            &#xA9;deeplizard
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://youtube.com/deeplizard" target="_blank">YouTube</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://youtube.com/deeplizardvlog" target="_blank">Vlog</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/hivemind">Hivemind</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/resources">Code</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/privacy">Privacy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/terms">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 text-left text-sm-right">
+                    <i id="back-to-the-top" class="material-icons">keyboard_arrow_up</i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" integrity="sha256-9p9wUORIjnIRp9PAyZGxql6KgJRNiH04y+8V4JjUhn0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+    <script src="/js/deeplizard.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
+    <script class="page-script">
+        $("#content-btn").click(function () {
+            $('html,body').animate({
+                scrollTop: $(".overview").offset().top + 50
+            }, 1500);
+        });
+    </script>
+    <script class="page-script">
+        $(document).ready(function () {
+            particlesJS("particles", {
+                "particles": {
+                    "number": {
+                        "value": 82,
+                        "density": {
+                            "enable": true,
+                            "value_area": 962.04
+                        }
+                    },
+                    "color": {
+                        "value": "#2c2f32"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 180,
+                        "color": "#474747",
+                        "opacity": 0.24,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "right",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": true,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 24.00,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
